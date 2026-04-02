@@ -13,51 +13,35 @@ body {
     flex-direction: column;
     min-height: 100vh;
 }
-.page-wrap {
-    flex: 1;
-    max-width: 1200px;
-    margin: 0 auto;
-    width: 100%;
-}
 .top-nav {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    background: rgba(255, 255, 255, 0.9);
     padding: 1rem 2rem;
-}
-.jolly-roger { height: 60px; }
-.hero {
-    text-align: center;
-    padding: 50px 20px;
     background: white;
 }
-.name { font-size: 3.5rem; margin: 0; }
+.jolly-roger { height: 60px; }
+.hero { text-align: center; padding: 50px 20px; background: white; }
 .profile-main-graphic {
     width: 300px;
     height: 300px;
     margin: 30px auto;
-    /* THIS FIXES THE BLACK AND WHITE BACKGROUND */
-    background: url('map_bg.png') center/cover;
     border-radius: 50%;
     border: 8px solid white;
     overflow: hidden;
+    /* This adds the vintage map background */
+    background: url('map_bg.png') center/cover;
     box-shadow: 0 10px 25px rgba(0,0,0,0.2);
 }
-.luffy-img {
-    max-width: 100%;
-    display: block;
-    margin: 0 auto;
-}
+.luffy-img { width: 100%; display: block; }
 .bounty-poster {
-    /* THIS FIXES THE ADVENTURES BACKGROUND */
+    /* This adds the weathered paper texture */
     background-image: url('poster_texture.jpg');
     background-size: cover;
     padding: 20px;
     text-align: center;
 }
 .wooden-footer {
-    /* THIS FIXES THE BOTTOM TEXTURE */
+    /* This adds the dark wood texture */
     background-image: url('wood_texture.jpg');
     background-size: cover;
     color: white;
