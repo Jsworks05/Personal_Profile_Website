@@ -3,44 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Joshua Smith | Software Engineer</title>
+    <title>Joshua Smith | Cybersecurity & Software Engineering</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="bg-onepiece">
     <div id="transition-overlay">
         <div class="rubber-punch"></div>
-        <img src="strawhat_icon.png" alt="Hat" class="transition-hat">
+        <img src="strawhat_icon.png" alt="Transition Hat" class="transition-hat">
     </div>
+
     <main class="page-wrap">
         <nav class="top-nav">
-            <div class="brand"><img src="js_jolly_roger.png" class="jolly-roger"></div>
+            <div class="brand">
+                <img src="js_jolly_roger.png" alt="JS Jolly Roger" class="jolly-roger">
+            </div>
             <div class="nav-links">
-                <a href="#adventures" class="active-nav">Adventures</a>
-                <a href="#crew">The Crew</a>
-                <a href="mailto:joshua.smith@example.com">Log Pose</a>
+                <a href="#adventures" class="active-nav">Adventures <span class="subtext">(Experience)</span></a>
+                <a href="#crew">The Crew <span class="subtext">(About)</span></a>
+                <a href="mailto:joshworks05@gmail.com">Log Pose <span class="subtext">(Contact)</span></a>
             </div>
         </nav>
+
         <header class="hero">
             <h2 class="name">JOSHUA SMITH</h2>
-            <h3 class="title">SOFTWARE ENGINEER</h3>
+            <h3 class="title">COMPUTER SCIENCE | CYBERSECURITY MINOR</h3>
             <div class="profile-main-graphic">
-                <img src="luffy_portrait.png" alt="Luffy" class="luffy-img">
+                <img src="luffy_portrait.png" alt="Luffy Portrait" class="luffy-img">
             </div>
-            <p class="tagline">"Setting Sail with Code: Crafting robust backends and seeking adventure in the world of International Trade."</p>
+            <p class="tagline">"Dean's List scholar at the University of Houston [cite: 6], specializing in Python, C++, and SQL [cite: 10] with a focus on OT security and intrusion detection[cite: 24]."</p>
         </header>
+
         <section id="adventures">
-            <h3 class="bounty-title">Adventures</h3>
+            <h3 class="bounty-title">Selected Adventures</h3>
             <div class="bounty-grid">
                 <div class="bounty-poster">
-                    <img src="luffy_portrait.png">
-                    <a href="#" class="view-btn trans-trigger">View Adventure</a>
+                    <img src="luffy_portrait.png" alt="Project Image">
+                    <h4>OT Intrusion Detection</h4>
+                    <p>Engineered a passive IDS for Yokogawa, increasing asset visibility by 21% using industrial protocols like Modbus and DNP3[cite: 24, 25].</p>
+                    <a href="#" class="view-btn trans-trigger">Technical Log</a>
+                </div>
+
+                <div class="bounty-poster">
+                    <img src="luffy_portrait.png" alt="Project Image">
+                    <h4>Network Traffic Analysis</h4>
+                    <p>Implemented a Python program using PyShark to detect TCP three-way handshakes and calculate Round Trip Time (RTT)[cite: 29].</p>
+                    <a href="#" class="view-btn trans-trigger">Research Log</a>
+                </div>
+
+                <div class="bounty-poster">
+                    <img src="luffy_portrait.png" alt="Project Image">
+                    <h4>Gummy Bear Arena</h4>
+                    <p>Developed an RPG video game in C++, managing the full development lifecycle from initial design to sandbox testing[cite: 37].</p>
+                    <a href="#" class="view-btn trans-trigger">Gameplay Log</a>
                 </div>
             </div>
         </section>
+
+        <section id="crew" class="p-12">
+            <h3 class="bounty-title">The Crew Profile</h3>
+            <div class="about-card" style="background: white; padding: 25px; border-radius: 8px; line-height: 1.6; margin: 20px;">
+                <p><strong>Certifications:</strong> CompTIA Security+ ce [cite: 13] | Mastercard Cybersecurity Analyst[cite: 14].</p>
+                <p><strong>Technical Arsenal:</strong> Wireshark, Pyshark, Windows PowerShell, and Adobe Photoshop[cite: 11].</p>
+                <p><strong>Professional Memberships:</strong> Active member of SASE, Code Coogs, and Cougar CS[cite: 38, 40].</p>
+            </div>
+        </section>
     </main>
+
     <footer class="wooden-footer">
         <p>© 2026 Captain Joshua Smith. Setting course for new horizons.</p>
     </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
