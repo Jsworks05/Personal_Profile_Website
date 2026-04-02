@@ -1,4 +1,3 @@
-<!-- This is the HTML file -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,50 +6,46 @@
     <title>Joshua Smith | Software Engineer</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="bg-sea">
-
-    <div id="transition-oj j jverlay" class="overlay-hidden">
+<body class="bg-onepiece">
+    <div id="transition-overlay" class="overlay-hidden">
         <div class="rubber-punch"></div>
-        <img src="straw-hat.png" alt="Transition Hat" class="transition-hat">
+        <img src="strawhat_icon.png" alt="Transition Hat" class="transition-hat">
     </div>
-
-    <nav class="p-6">
-        <div class="logo">JS.</div>
-        <div class="nav-links">
-            <a href="#projects" class="trans-trigger">Adventures</a>
-            <a href="#about" class="trans-trigger">The Crew</a>
-            <a href="mailto:joshua.smith@example.com">Contact</a>
-        </div>
-    </nav>
-
-    <header>
-        <div class="profile-container">
-            <div class="straw-hat-header"></div>
-            <img src="profile.jpg" alt="Joshua Smith" class="profile-img">
-        </div>
-        <h2 class="name">Joshua Smith</h2>
-        <h3 class="title">Software Engineer</h3>
-        <p class="tagline">Building robust backends while exploring International Trade.</p>
-    </header>
-
-    <section id="projects">
-        <h3>Selected Adventures</h3>
-        <div class="grid">
-            <div class="project-card">
-                <h4>Data Science & Air Quality</h4>
-                <p>PCA and normalization of complex environmental datasets.</p>
-                <a href="#" class="view-btn trans-trigger">
-                    <span>View Adventure</span>
-                    <img src="straw-hat.png" alt="Hat" class="btn-hat">
-                </a>
+    <main class="page-wrap">
+        <nav class="p-6 top-nav">
+            <div class="brand">
+                <img src="js_jolly_roger.png" alt="JS Jolly Roger" class="jolly-roger">
             </div>
+            <div class="nav-links">
+                <a href="#adventures" class="active-nav">Adventures <span class="subtext">(Projects)</span></a>
+                <a href="#crew">The Crew <span class="subtext">(About)</span></a>
+                <a href="mailto:joshua.smith@example.com">Log Pose <span class="subtext">(Contact)</span></a>
             </div>
-    </section>
-
-    <footer>
+        </nav>
+        <header class="hero">
+            <h2 class="name">JOSHUA SMITH</h2>
+            <h3 class="title">SOFTWARE ENGINEER</h3>
+            <div class="profile-main-graphic">
+                <img src="luffy_portrait.png" alt="Luffy" class="luffy-img">
+            </div>
+            <p class="tagline">"Setting Sail with Code: Crafting robust backends and seeking adventure in the world of International Trade."</p>
+        </header>
+        <section id="adventures" class="p-12">
+            <h3 class="bounty-title">Adventures</h3>
+            <div class="bounty-grid">
+                <div class="bounty-poster">
+                    <img src="luffy_portrait.png" alt="Project">
+                    <a href="#" class="view-btn trans-trigger">View Adventure</a>
+                </div>
+                <div class="bounty-poster bounty-poster-blank">
+                    <a href="#" class="view-btn trans-trigger">View Adventure</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="wooden-footer">
         <p>© 2026 Captain Joshua Smith. Setting course for new horizons.</p>
     </footer>
-
     <script src="script.js"></script>
 </body>
 </html>
